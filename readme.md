@@ -9,23 +9,24 @@ Start with a generic MacBook developer environment. Then play all the custom con
 
 ## Basic
 
-Install Mithias' [dotfiles](https://github.com/mathiasbynens/dotfiles.git)
+Install Mithias' [dotfiles](https://github.com/mathiasbynens/dotfiles.git) (to ~/.dotfiles)
 
 `./brew.sh` to install the basic developer utilites
 
 ## Custom
 
-Install [DotVimCore](https://github.com/vestrobaa/dotvimcore.git)
-Install [DotMacCore](https://github.com/vestrobaa/dotmaccore.git)
+Install [DotVimCore](https://github.com/vestrobaa/dotvimcore.git) (to ~/.vim)  
+Install [DotMacCore](https://github.com/vestrobaa/dotmaccore.git) (to ~/.macfiles)
 
-    cd ~/dotmaccore
+    cd ~/.macfiles
+    ./bootstrap.sh
     ./brew.sh
-    ./patch.sh
+    source ~/.extra
 
 # Update
 
     # Update dotfiles
-    cd ~/dotfiles
+    cd ~/.dotfiles
     git pull origin master
 
     # Update my vim settings
@@ -35,7 +36,7 @@ Install [DotMacCore](https://github.com/vestrobaa/dotmaccore.git)
     git submodule update
 
     # Update my Mac settings
-    cd ~/dotmacfiles
+    cd ~/.macfiles
     git pull origin master
 
 # TODO
