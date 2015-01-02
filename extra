@@ -9,3 +9,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 # Enable RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# Add Chrome's depot tools to the path
+# export PATH=`pwd`/depot_tools:"$PATH"
+export PATH=/Volumes/ExternalSSD/projects/depot_tools:"$PATH"
