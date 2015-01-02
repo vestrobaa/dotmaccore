@@ -13,6 +13,8 @@ Install Mithias' [dotfiles](https://github.com/mathiasbynens/dotfiles.git) (to ~
 
 `./brew.sh` to install the basic developer utilites
 
+Note that his environment is configured for Node and not Python/Ruby
+
 ## Custom
 
 Install [DotVimCore](https://github.com/vestrobaa/dotvimcore.git) (to ~/.vim)  
