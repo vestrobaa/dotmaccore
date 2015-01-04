@@ -1,55 +1,85 @@
-# DotMacCore repository
+# Mac Commands
 
-MacBook development environment
+Sizes of directories    `tree -du -L 1`  
+and                     `du -d1 ~`  
+System log cleanup      `sudo periodic daily weekly monthly`  
 
-# Configuration
+Search files via spotlight  `mdfind <filename>`  
+Show file info              `mdshow <filename>`  
 
-Start with a generic MacBook developer environment. Then play all the custom config
+List git folders        `find . -name .git -type d -print`  
 
 
-## Basic
+### Checksum for downloads on Mac
+    - shasum <fn>
+    - openssl sha1 <drop file>
 
-Install Mithias' [dotfiles](https://github.com/mathiasbynens/dotfiles.git) (to ~/.dotfiles)
 
-`./brew.sh` to install the basic developer utilites
+###Install homebrew
 
-Note that his environment is configured for Node and not Python/Ruby
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
-## Custom
+from:
 
-Install [DotVimCore](https://github.com/vestrobaa/dotvimcore.git) (to ~/.vim)  
-Install [DotMacCore](https://github.com/vestrobaa/dotmaccore.git) (to ~/.macfiles)
+http://mxcl.github.io/homebrew/
 
-    cd ~/.macfiles
-    ./bootstrap.sh
-    ./brew.sh
-    source ~/.extra
+Install fine. Comment to run:
+brew doctor
+brwe help
+###Old Path
 
-# Update
+PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
 
-    # Update dotfiles
-    cd ~/.dotfiles
-    git pull origin master
+###New Path
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
 
-    # Update my vim settings
-    cd ~/.vim
-    git pull origin master
-    git submodule init
-    git submodule update
+###Permanent path on OS X
 
-    # Update my Mac settings
-    cd ~/.macfiles
-    git pull origin master
+Create ~/.bash_profile with:
+`export PATH=/usr/local/bin:$PATH`
 
-# TODO
+# Trashed my work mashine's mbr!!!
 
--   List git folders in a different color
--   Trash Fish
--   Set git defaults
-    -   Watch out for project specific git settings
 
-# Generic dotfile issues
+fixboot c:
+fixmbr
 
--   Not rvm aware
--       Reset system ruby before updates `rvm system`
+Bootrec.exe /FixBoot
+Bootrec.exe /FixMBR
+
+FixMbr
+
+MbrFix /drive 0 fixmbr /win7
+
+
+
+# Pull all git masters
+
+### [update\_git\_repos.sh](https://gist.github.com/douglas/1287372)
+
+    #!/bin/bash
+
+    # store the current dir
+    CUR_DIR=$(pwd)
+
+    # Let the person running the script know what's going on.
+    echo -e "\n\033[1mPulling in latest changes for all repositories...\033[0m\n"
+
+    # Find all git repositories and update it to the master latest revision
+    for i in $(find . -name ".git" | cut -c 3-); do
+        echo -e "";
+        echo -e "\033[33m"+$i+"\033[0m";
+
+        # We have to go to the .git parent directory to call the pull command
+        cd "$i";
+        cd ..;
+
+        # finally pull
+        git pull origin master;
+
+        # lets get back to the CUR_DIR
+        cd $CUR_DIR
+    done
+
+    echo -e "\n\033[32mComplete!\033[0m\n"
 
