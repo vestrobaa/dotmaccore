@@ -13,3 +13,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 # Add Chrome's depot tools to the path
 # export PATH=`pwd`/depot_tools:"$PATH"
 export PATH=/Volumes/ExternalSSD/projects/depot_tools:"$PATH"
+
+# Fix brew dependancies
+# Well, this breaks more than it fixes
+# export PATH='/usr/local/sbin:$PATH'
