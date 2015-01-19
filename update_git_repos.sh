@@ -1,5 +1,15 @@
 #!/bin/bash
 
+
+### [update\_git\_repos.sh](https://gist.github.com/douglas/1287372)
+
+#### Notes
+
+# Dangerous! Use with care
+# 
+# - This will pull master over the current checked out branch
+# - Submodules will go out of sync
+
 # store the current dir
 CUR_DIR=$(pwd)
 
