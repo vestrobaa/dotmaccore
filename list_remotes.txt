@@ -1,0 +1,254 @@
+
+[1mListing the remotes for repositories...[0m
+
+
+[33m+.vim/.git+[0m
+origin	git@github.com:vestrobaa/dotvimcore.git (fetch)
+origin	git@github.com:vestrobaa/dotvimcore.git (push)
+
+[33m+.vim/bundle/capslock/.git+[0m
+
+[33m+.vim/bundle/color-apprentice/.git+[0m
+
+[33m+.vim/bundle/color-badwolf/.git+[0m
+
+[33m+.vim/bundle/color-base16/.git+[0m
+
+[33m+.vim/bundle/color-distinguished/.git+[0m
+
+[33m+.vim/bundle/color-molokai/.git+[0m
+
+[33m+.vim/bundle/color-mustang/.git+[0m
+
+[33m+.vim/bundle/color-paper/.git+[0m
+
+[33m+.vim/bundle/color-playroom/.git+[0m
+
+[33m+.vim/bundle/color-primary/.git+[0m
+
+[33m+.vim/bundle/color-pyte/.git+[0m
+
+[33m+.vim/bundle/color-seoul256/.git+[0m
+
+[33m+.vim/bundle/color-zenburn/.git+[0m
+
+[33m+.vim/bundle/ctrlp/.git+[0m
+
+[33m+.vim/bundle/ctrlspace/.git+[0m
+
+[33m+.vim/bundle/dbext/.git+[0m
+
+[33m+.vim/bundle/focus-airline/.git+[0m
+
+[33m+.vim/bundle/focus-fullscreen/.git+[0m
+
+[33m+.vim/bundle/focus-goyo/.git+[0m
+
+[33m+.vim/bundle/fugitive/.git+[0m
+
+[33m+.vim/bundle/gundo/.git+[0m
+
+[33m+.vim/bundle/makegreen/.git+[0m
+
+[33m+.vim/bundle/markdown/.git+[0m
+
+[33m+.vim/bundle/metarw/.git+[0m
+
+[33m+.vim/bundle/metarw/mduem/.git+[0m
+
+[33m+.vim/bundle/metarw-gdrive/.git+[0m
+
+[33m+.vim/bundle/metarw-git/.git+[0m
+
+[33m+.vim/bundle/metarw-git/mduem/.git+[0m
+
+[33m+.vim/bundle/netrw-vinegar/.git+[0m
+
+[33m+.vim/bundle/pydoc/.git+[0m
+
+[33m+.vim/bundle/pytest/.git+[0m
+
+[33m+.vim/bundle/python-cute/.git+[0m
+origin	https://github.com/ehamberg/vim-cute-python.git (fetch)
+origin	https://github.com/ehamberg/vim-cute-python.git (push)
+
+[33m+.vim/bundle/python-mode/.git+[0m
+
+[33m+.vim/bundle/repeat/.git+[0m
+
+[33m+.vim/bundle/ruby/.git+[0m
+
+[33m+.vim/bundle/surround/.git+[0m
+
+[33m+.vim/bundle/syntastic/.git+[0m
+
+[33m+.vim/bundle/syntax-csv/.git+[0m
+
+[33m+.vim/bundle/syntax-git/.git+[0m
+
+[33m+.vim/bundle/syntax-hexHighlight/.git+[0m
+
+[33m+.vim/bundle/syntax-json/.git+[0m
+
+[33m+.vim/bundle/syntax-markdown/.git+[0m
+
+[33m+.vim/bundle/syntax-otmlog/.git+[0m
+
+[33m+.vim/bundle/unimpaired/.git+[0m
+
+[33m+.vim/bundle/vspec/.git+[0m
+
+[33m+.vim-flavor/repos/kana_vim-vspec/.git+[0m
+origin	git://github.com/kana/vim-vspec.git (fetch)
+origin	git@github.com:kana/vim-vspec.git (push)
+
+[33m+.vimref/.git+[0m
+origin	https://github.com/vestrobaa/dotvimcore (fetch)
+origin	https://github.com/vestrobaa/dotvimcore (push)
+
+[33m+.vimref/bundle/color-distinguished/.git+[0m
+
+[33m+.vimref/bundle/color-mustang/.git+[0m
+
+[33m+.vimref/bundle/ctrlp/.git+[0m
+
+[33m+.vimref/bundle/dbext/.git+[0m
+
+[33m+.vimref/bundle/easymotion/.git+[0m
+
+[33m+.vimref/bundle/fugitive/.git+[0m
+
+[33m+.vimref/bundle/gundo/.git+[0m
+
+[33m+.vimref/bundle/markdown/.git+[0m
+
+[33m+.vimref/bundle/pep8/.git+[0m
+
+[33m+.vimref/bundle/spec/.git+[0m
+
+[33m+.vimref/bundle/syntastic/.git+[0m
+
+[33m+.vimref/bundle/syntax-git/.git+[0m
+
+[33m+.vimref/bundle/syntax-markdown/.git+[0m
+
+[33m+.vimref/bundle/syntax-ruby-cucumber/.git+[0m
+origin	https://github.com/tpope/vim-cucumber.git (fetch)
+origin	https://github.com/tpope/vim-cucumber.git (push)
+
+[33m+.vimref/bundle/syntax-ruby-endwise/.git+[0m
+origin	https://github.com/tpope/vim-endwise.git (fetch)
+origin	https://github.com/tpope/vim-endwise.git (push)
+
+[33m+.webvim/.git+[0m
+origin	https://github.com/vestrobaa/dotvimweb.git (fetch)
+origin	https://github.com/vestrobaa/dotvimweb.git (push)
+
+[33m+.webvim/bundle/color-mustang/.git+[0m
+
+[33m+.webvim/bundle/twitter-bitly/.git+[0m
+
+[33m+.webvim/bundle/twitter-favstar/.git+[0m
+
+[33m+.webvim/bundle/twitter-open-browser/.git+[0m
+
+[33m+.webvim/bundle/twitter-tweet/.git+[0m
+
+[33m+.webvim/bundle/twitter-twibill/.git+[0m
+
+[33m+.webvim/bundle/twitter-unite/.git+[0m
+
+[33m+.webvim/bundle/twitter-webapi/.git+[0m
+
+[33m+Desktop/writing-idiomatic-python/.git+[0m
+origin	https://github.com/jeffknupp/writing-idiomatic-python.git (fetch)
+origin	https://github.com/jeffknupp/writing-idiomatic-python.git (push)
+
+[33m+dotfiles/.git+[0m
+origin	https://github.com/mathiasbynens/dotfiles.git (fetch)
+origin	https://github.com/mathiasbynens/dotfiles.git (push)
+
+[33m+dotmaccore/.git+[0m
+origin	https://github.com/vestrobaa/dotmaccore.git (fetch)
+origin	https://github.com/vestrobaa/dotmaccore.git (push)
+
+[33m+flask/.git+[0m
+origin	https://github.com/mitsuhiko/flask.git (fetch)
+origin	https://github.com/mitsuhiko/flask.git (push)
+
+[33m+gems/.git+[0m
+origin	https://github.com/rubygems/rubygems.git (fetch)
+origin	https://github.com/rubygems/rubygems.git (push)
+
+[33m+github/josh_dotvim/.git+[0m
+origin	https://github.com/joshfriend/dotvim (fetch)
+origin	https://github.com/joshfriend/dotvim (push)
+
+[33m+github/KabbAmine.github.io/.git+[0m
+origin	https://github.com/KabbAmine/KabbAmine.github.io.git (fetch)
+origin	https://github.com/KabbAmine/KabbAmine.github.io.git (push)
+
+[33m+github/kartograph/.git+[0m
+origin	https://github.com/vestrobaa/kartograph.org.git (fetch)
+origin	https://github.com/vestrobaa/kartograph.org.git (push)
+upstream	https://github.com/kartograph/kartograph.org.git (fetch)
+upstream	https://github.com/kartograph/kartograph.org.git (push)
+
+[33m+github/sirupsen_dotfiles/.git+[0m
+origin	https://github.com/vestrobaa/macbook-dotfiles.git (fetch)
+origin	https://github.com/vestrobaa/macbook-dotfiles.git (push)
+upstream	https://github.com/Sirupsen/dotfiles.git (fetch)
+upstream	https://github.com/Sirupsen/dotfiles.git (push)
+
+[33m+github/textobj/.git+[0m
+origin	https://github.com/vestrobaa/vim-textobj-user.git (fetch)
+origin	https://github.com/vestrobaa/vim-textobj-user.git (push)
+upstream	https://github.com/kana/vim-textobj-user.git (fetch)
+upstream	https://github.com/kana/vim-textobj-user.git (push)
+
+[33m+github/tweetvim/.git+[0m
+origin	https://github.com/vestrobaa/TweetVim.git (fetch)
+origin	https://github.com/vestrobaa/TweetVim.git (push)
+upstream	https://github.com/basyura/TweetVim.git (fetch)
+upstream	https://github.com/basyura/TweetVim.git (push)
+
+[33m+github/vspec/.git+[0m
+origin	https://github.com/vestrobaa/vim-vspec.git (fetch)
+origin	https://github.com/vestrobaa/vim-vspec.git (push)
+upstream	https://github.com/kana/vim-vspec.git (fetch)
+upstream	https://github.com/kana/vim-vspec.git (push)
+
+[33m+goals/.git+[0m
+origin	https://github.com/vestrobaa/goals.git (fetch)
+origin	https://github.com/vestrobaa/goals.git (push)
+
+[33m+pandoc-ebook-template/.git+[0m
+origin	https://github.com/evangoer/pandoc-ebook-template.git (fetch)
+origin	https://github.com/evangoer/pandoc-ebook-template.git (push)
+
+[33m+rate/.git+[0m
+origin	git@github.com:/vestrobaa/rateload.git (fetch)
+origin	git@github.com:/vestrobaa/rateload.git (push)
+
+[33m+resume/.git+[0m
+origin	git@github.com:vestrobaa/resume.git (fetch)
+origin	git@github.com:vestrobaa/resume.git (push)
+
+[33m+scripts/.git+[0m
+origin	https://github.com/matthewmccullough/scripts.git (fetch)
+origin	https://github.com/matthewmccullough/scripts.git (push)
+
+[33m+skylines/.git+[0m
+origin	https://github.com/skylines-project/skylines.git (fetch)
+origin	https://github.com/skylines-project/skylines.git (push)
+
+[33m+source/fish-shell/.git+[0m
+origin	https://github.com/fish-shell/fish-shell.git (fetch)
+origin	https://github.com/fish-shell/fish-shell.git (push)
+
+[33m+source/tmuxinator/.git+[0m
+origin	https://github.com/aziz/tmuxinator.git (fetch)
+origin	https://github.com/aziz/tmuxinator.git (push)
+
+[32mComplete![0m
+
