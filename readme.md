@@ -1,3 +1,14 @@
+# How to use dotmaccore
+
+Pull the dofiles from [mathias bynens](https://github.com/mathiasbynens/dotfiles.git)
+This is geared towards jscript/node, so make sure to reset ruby to home
+cd dotfiles && source bootstrap.sh
+
+Now clone dotmaccore
+cd dotmaccore && bootstrap.sh
+
+See my current brew listing at the bottom
+
 # Mac Commands
 
 Sizes of directories    `tree -du -L 1`  
@@ -92,3 +103,142 @@ Dangerous! Use with care
 
     echo -e "\n\033[32mComplete!\033[0m\n"
 
+
+# Brew listing
+
+
+ack
+apple-gcc42
+asciidoc
+autoconf
+automake
+bash
+bash-completion
+bash-git-prompt
+bfg
+binutils
+binwalk
+boost
+brew-cask
+cairo
+cifer
+cloog
+cmake
+coreutils
+cscope
+ctags
+curl
+czmq
+dex2jar
+dns2tcp
+docbook
+docbook-xsl
+faac
+fcrackzip
+ffmpeg
+findutils
+fontconfig
+fontforge
+foremost
+freetype
+gcc
+gdbm
+gettext
+git
+git-flow
+glib
+gmp
+gnu-getopt
+gnu-sed
+gobject-introspection
+grep
+harfbuzz
+hashpump
+hydra
+icu4c
+imagemagick
+irssi
+isl
+john
+jpeg
+knock
+lame
+libdnet
+libevent
+libffi
+libgpg-error
+libidn
+libksba
+libmagic
+libmpc
+libpng
+libsodium
+libtiff
+libtool
+libvo-aacenc
+libxml2
+libyaml
+little-cms2
+lua
+lynx
+macvim
+mercurial
+moreutils
+mpfr
+mutt
+mysql
+narwhal
+ngrep
+nmap
+node
+openjpeg
+openssl
+p7zip
+pandoc
+pango
+pcre
+pdf2htmlex
+pigz
+pixman
+pkg-config
+pngcheck
+poppler
+pstree
+pv
+pyside
+python
+python3
+qt
+readline
+rename
+rhino
+ringojs
+screen
+shiboken
+socat
+sqlite
+sqlmap
+ssdeep
+swig
+tcpflow
+tcpreplay
+tcptrace
+texi2html
+tig
+tmux
+tokyo-cabinet
+tree
+ttfautohint
+ucspi-tcp
+vim
+vimpager
+webkit2png
+wget
+x264
+xmlto
+xvid
+xz
+yasm
+youtube-dl
+zeromq
+zopfli
