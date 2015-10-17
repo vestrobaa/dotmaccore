@@ -18,6 +18,9 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade --all
 
+# Remove suspicious
+brew remove john
+
 # Developer
 brew install curl
 brew install ctags
