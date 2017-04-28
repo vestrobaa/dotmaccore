@@ -16,65 +16,11 @@ See my current brew listing at the bottom
 
 # Git config
 
-To-do: Make the git config part of the dotfile update
+See dottoolcore.git
 
+# Link iCloud
 
-alias.l=log --pretty=oneline -n 20 --graph --abbrev-commit
-alias.s=status -s
-alias.d=!git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat
-alias.di=!d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD -- || clear; d
-alias.p=!git pull; git submodule foreach git pull origin master
-alias.c=clone --recursive
-alias.ca=!git add -A && git commit -av
-alias.go=!f() { git checkout -b "$1" 2> /dev/null || git checkout "$1"; }; f
-alias.tags=tag -l
-alias.branches=branch -a
-alias.remotes=remote -v
-alias.amend=commit --amend --reuse-message=HEAD
-alias.credit=!f() { git commit --amend --author "$1 <$2>" -C HEAD; }; f
-alias.reb=!r() { git rebase -i HEAD~$1; }; r
-alias.retag=!r() { git tag -d $1 && git push origin :refs/tags/$1 && git tag $1; }; r
-alias.fb=!f() { git branch -a --contains $1; }; f
-alias.ft=!f() { git describe --always --contains $1; }; f
-alias.fc=!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short -S$1; }; f
-alias.fm=!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f
-alias.dm=!git branch --merged | grep -v '\*' | xargs -n 1 git branch -d
-alias.contributors=shortlog --summary --numbered
-alias.mpr=!f() { 		if [ $(printf "%s" "$1" | grep '^[0-9]\+$' > /dev/null; printf $?) -eq 0 ]; then 			git fetch origin refs/pull/$1/head:pr/$1 && 			git rebase master pr/$1 && 			git checkout master && 			git merge pr/$1 && 			git branch -D pr/$1 && 			git commit --amend -m "$(git log -1 --pretty=%B)
-
-Closes #$1."; 		fi 	}; f
-apply.whitespace=fix
-core.excludesfile=~/.gitignore
-core.attributesfile=~/.gitattributes
-core.whitespace=space-before-tab,-indent-with-non-tab,trailing-space
-core.trustctime=false
-core.precomposeunicode=false
-color.ui=auto
-color.branch.current=yellow reverse
-color.branch.local=yellow
-color.branch.remote=green
-color.diff.meta=yellow bold
-color.diff.frag=magenta bold
-color.diff.old=red
-color.diff.new=green
-color.status.added=yellow
-color.status.changed=green
-color.status.untracked=cyan
-diff.renames=copies
-diff.bin.textconv=hexdump -v -C
-help.autocorrect=1
-merge.log=true
-push.default=matching
-push.followtags=true
-url.git@github.com:.insteadof=gh:
-url.git@github.com:.pushinsteadof=github:
-url.git@github.com:.pushinsteadof=git://github.com/
-url.git://github.com/.insteadof=github:
-url.git@gist.github.com:.insteadof=gst:
-url.git@gist.github.com:.pushinsteadof=gist:
-url.git@gist.github.com:.pushinsteadof=git://gist.github.com/
-url.git://gist.github.com/.insteadof=gist:
-
+    ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs ~/iCloud
 
 # Mac Commands
 
